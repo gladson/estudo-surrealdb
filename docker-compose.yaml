@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  surrealdb:
+    image: surrealdb/surrealdb:latest
+    restart: always
+    ports:
+      - 8000:8080
+    volumes:
+      - ./data:/data
+    command: start --log trace --auth --user root --pass root --bind 0.0.0.0:8080 file:/data/mydatabase.db

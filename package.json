@@ -1,0 +1,25 @@
+{
+  "name": "estudo_surrealdb",
+  "version": "1.0.0",
+  "description": "Estudo sobre o banco de dados SurrealDB",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gladson/estudo-surrealdb.git"
+  },
+  "keywords": [
+    "surrealdb",
+    "rust",
+    "nodejs",
+    "database"
+  ],
+  "author": "gladson <gladsonbrito@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gladson/estudo-surrealdb/issues"
+  },
+  "homepage": "https://github.com/gladson/estudo-surrealdb#readme"
+}
